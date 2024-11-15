@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>To do list</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <div class="box-title">To Do List</div>
+
+      <div class="input-form">
+        <b>Naslov</b>
+        <input name="title" type="text" />
+        <b>Opis</b>
+        <textarea name="description" rows="5px"></textarea>
+        <button onclick="addToDo()" class="add-button">Dodaj</button>
+      </div>
+
+      <hr class="hr-line" />
+
+      <div name="todosCards"></div>
+    </div>
+
+    <!-- Source of script -->
+    <script src="script.js"></script>
+  </body>
+</html>
